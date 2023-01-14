@@ -26,7 +26,9 @@ int main()
 {
 	int my_array[]{5, 2, 10, 12};
 	sort(my_array, 4);
+	cout << '[';
 	for(const int& pos : my_array){
-		cout << pos << endl;
+		cout << pos << ', ';
 	}
+	cout << ']';
 }
