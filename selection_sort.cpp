@@ -16,7 +16,7 @@ void swap(int* arr, const int& size, const int& start_index)
 void sort(int* array, const int size)
 {
     int current_index = 0;
-    for(int i =0; i < size; ++i){
+    for(int i = 0; i < size; ++i){
         swap(array, size, current_index);
         ++ current_index;
     }
