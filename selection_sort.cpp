@@ -22,7 +22,8 @@ void sort(int* array, const int size)
     }
 }
 
-int main() {
+int main()
+{
     int arr[] = {2, 10, 5, 6, 32, 1};
     sort(arr, 6);
     for(auto v:arr){
